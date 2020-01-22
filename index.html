@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Spining Dots</title>
+		<style type="text/css">
+			body {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				min-height: 100vh;
+				margin: 0;
+				padding: 0;
+				color: #55efc4;
+			}
+			spinning-dots {
+				margin: 20px;
+			}
+			spinning-dots.large {
+				width: 100px;
+			}
+			spinning-dots.small-stroke {
+				stroke-width: 2px;
+			}
+		</style>
+	</head>
+	<body>
+		<spinning-dots></spinning-dots>
+		<spinning-dots dots="8"></spinning-dots>
+		<spinning-dots dots="4" class="large"></spinning-dots>
+		<spinning-dots class="large small-stroke"></spinning-dots>
+
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
